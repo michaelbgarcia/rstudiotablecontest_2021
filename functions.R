@@ -227,7 +227,7 @@ gt_local_icon_abilities = function (gt_object, columns, type = c("passive", "tac
     }))
   }, fn = function(x) {
     
-    desc = sym(glue("{type}_desc"))
+    desc = glue("{type}_desc")
     
     img_path = glue("apex_data/legends/{legend_name}/abilities/{type}")
     
